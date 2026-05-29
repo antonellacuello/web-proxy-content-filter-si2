@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Erro no Proxy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1> 
+            <img
+                src="{{ url_for('static', filename='img/sirene.gif') }}"
+                alt="gif"
+                class="gif-sirene"
+            
+            >
+
+            ERRO NO PROXY 
+
+            <img
+                src="{{ url_for('static', filename='img/sirene.gif') }}"
+                alt="gif"
+                class="gif-sirene"
+            >
+        </h1>
+        <p> Falha ao conectar ao servidor remoto. </p>
+        <ul class="error-list"> Verifique:
+            <li>URL digitada</li>
+            <li>Conexão com o servidor</li>
+            <li>Disponibilidade do site</li>
+        </ul>
+        <button onclick="history.back()"> Voltar </button>
+    </div>
+</body>
+
+</html>
