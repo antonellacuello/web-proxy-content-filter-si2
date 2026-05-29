@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web Proxy — SI2</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body class="home-body">
+    <div class="home-container">
+        <h1 class="titulo"> WEB PROXY — SI2 </h1>
+        <p class="descricao"> Proxy HTTP desenvolvido em Python utilizando Flask e Requests. </p>
+        <div class="secao">
+            <h2>Funcionalidades</h2>
+            <ul>
+                <li>Bloqueio de sites</li>
+                <li>Filtro de palavras</li>
+                <li>Logs de acesso</li>
+                <li>Páginas personalizadas</li>
+            </ul>
+        </div>
+        <div class="secao">
+            <h2>Exemplo de uso</h2>
+            <p> http://example.com </p>
+        </div>
+        <div class="secao">
+            <h2>Informações do Proxy</h2>
+            <p><strong>STATUS:</strong> {{ status }}</p>
+            <p><strong>PORTA:</strong> {{ porta }}</p>
+            <p><strong>MODO:</strong> {{ modo }}</p>
+        </div>
+        <div class="secao">
+            <h2>Testar Proxy</h2>
+            <form action="/proxy" method="GET">
+                <input
+                    type="text"
+                    name="url"
+                    placeholder="Digite uma URL"
+                    required
+                >
+                <button class="button-input" type="submit"> Acessar </button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
