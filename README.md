@@ -234,3 +234,7 @@ Ferramentas de IA foram utilizadas como apoio durante:
 - desenvolvimento de textos
 
 Todo o código foi analisado, adaptado e compreendido antes da implementação no projeto.
+
+## Relatório Técnico
+
+📄 [Relatório Técnico](Relatorio_Tecnico_Web_Proxy.pdf)
