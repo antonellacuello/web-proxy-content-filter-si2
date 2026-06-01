@@ -236,5 +236,6 @@ Ferramentas de IA foram utilizadas como apoio durante:
 Todo o código foi analisado, adaptado e compreendido antes da implementação no projeto.
 
 ## Relatório Técnico
+O relatório técnico do projeto pode ser encontrado no arquivo:
 
 📄 [Relatório Técnico](Relatorio_Tecnico_Web_Proxy.pdf)
